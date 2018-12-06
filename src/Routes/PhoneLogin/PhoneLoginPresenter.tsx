@@ -1,7 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import BackArrow from "../../Components/BackArrow";
-// import Input from "../../Components/Input";
+import Input from "../../Components/Input";
 import countries from "../../countries";
 import styled from "../../typed-components";
 
@@ -68,6 +68,7 @@ const BackArrowExtended = styled(BackArrow)`
             ))}
         </CountrySelect>
         <Form>
+            <Input placeholder={"02 1234 5678"} />
             <Button>
                 <svg
                 xmlns="http://www.w3.org/2000/svg"
