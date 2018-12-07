@@ -19,7 +19,7 @@ const Link = styled.span`
 `;
 
 const Icon = styled.span`
-    margin-left: 10px;
+    margin-right: 10px;
 `;
 
 const BackArrowExtended = styled(BackArrow)`
