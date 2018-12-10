@@ -45,7 +45,6 @@ class PhoneLoginContainer extends React.Component<RouteComponentProps<any>, ISta
                       phoneNumber={phoneNumber}
                       onInputChange={this.onInputChange}
                       onSubmit={onSubmit}
-                      loading={loading}
                     />
                   );
                 }}
