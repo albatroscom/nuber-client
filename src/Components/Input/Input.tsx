@@ -29,6 +29,7 @@ interface IProps {
     value: any;
     name?: string;
     onChange: any;
+    className?: string;
 }
 
 const Input: React.SFC<IProps> = ({ 
@@ -37,7 +38,8 @@ const Input: React.SFC<IProps> = ({
     required = true, 
     value,
     name = "",
-    onChange
- }) => <Container placeholder={placeholder} type={type} required={required} value={value} name={name} onChange={onChange} />;
+    onChange,
+    className
+ }) => <Container placeholder={placeholder} type={type} required={required} value={value} name={name} onChange={onChange} className={className} />;
 
 export default Input;
